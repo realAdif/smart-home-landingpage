@@ -14,6 +14,7 @@ import SmallHeroImage from './assets/SmallHeroImage.png';
 import LargeHeroImage from './assets/LargeHeroImage.png';
 import AppleDownload from './assets/AppleDownload.png';
 import GoogleDownload from './assets/GoogleDownload.png';
+import Email from './components/Email';
 
 function App() {
   return (
@@ -67,7 +68,7 @@ function App() {
         <Clients />
         <Testimonials />
         <Faq />
-        <DownloadApp />
+        <DownloadApp /> {/* need to fix the image oversize */}
         <Cta />
         <Footer />
       </main>
