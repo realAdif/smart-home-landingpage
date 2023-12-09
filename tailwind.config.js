@@ -3,7 +3,7 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     fontSize: {
-      xs: '17px',
+      xs: '14px',
       sm: '18px',
       base: '20px',
       md: '24px',
@@ -20,9 +20,13 @@ export default {
         neutral: {
           black: '#011037',
           grey: '#313131',
+          'grey-200': '#9C9EA3',
+          'grey-300': '#E7EBEE',
           greylight: '#575757',
           darkblue: '#000F37',
+          lightblue: '#1B263D',
           white: '#FFFFFF',
+          'white-100': '#FAFAFA',
         },
         action: {
           warning: '#FBC02D',
