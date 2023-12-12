@@ -14,7 +14,6 @@ import SmallHeroImage from './assets/SmallHeroImage.png';
 import LargeHeroImage from './assets/LargeHeroImage.png';
 import AppleDownload from './assets/AppleDownload.png';
 import GoogleDownload from './assets/GoogleDownload.png';
-import Email from './components/Email';
 
 function App() {
   return (
