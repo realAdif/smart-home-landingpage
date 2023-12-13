@@ -1,5 +1,5 @@
 import cybexLogo from '../assets/cybexLogo.png';
-import FitnessLogo from '../assets/FitnessLogo.png';
+import FitnessLogo from '../assets/Fitnesslogo.png';
 import LifeLogo from '../assets/LifeLogo.png';
 import MockLogo from '../assets/MockLogo.png';
 import precorLogo from '../assets/precorLogo.png';
