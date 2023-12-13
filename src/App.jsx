@@ -78,7 +78,7 @@ function App() {
           className="max-w-[126px]"
         />
       </div>
-      <main className="container mx-auto mt-12 relative overflow-x-clip">
+      <main className="container mx-auto mt-12 relative overflow-x-clip bg-white">
         <img
           src={Samllline}
           alt="LinkedIn Icon"
