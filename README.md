@@ -1,13 +1,12 @@
 <h2>About the project</h2>
 
-  <p>This repository contains the front-end code for the Fitness Zone portfolio website. The website showcases the services, facilities, and information about the Fitness Zone gym. The website is designed to provide an appealing and user-friendly experience for visitors.</p>
+  <p>This repository contains the landing page for Smart Home, a platform designed to automate healthcare hiring, onboarding, and compliance through a comprehensive technology solution.</p>
 
 👉 Live Demo: <a href='https://fitness-zone-rho.vercel.app/'>Live Demo</a>
 
 <h2>Build with</h2>
 
-» CSS <br>
-» Bootstrap<br>
+» Tailwind CSS <br>
 » React JS
 
 <h2>Features</h2>
@@ -19,4 +18,5 @@
 <br>
 <h2>Screenshots of the Project</h2>
 
-![Alt text](image-2.png)
+![image](https://github.com/realAdif/smart-home-landingpage/assets/90451018/f2338c5f-8a02-4408-a697-93d9f69ec4cd)
+
