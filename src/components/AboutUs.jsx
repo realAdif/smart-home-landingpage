@@ -51,7 +51,7 @@ const AboutUs = () => {
               <div className="hidden lg:block w-[500px] h-[350px] bg-primary rounded-xl absolute bottom-40 -z-10" />
             </div>
             {/* title */}
-            <div className="">
+            <div>
               <h1 className="max-w-[470px] text-neutral-black text-headline-base">
                 {card.title}
               </h1>

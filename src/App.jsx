@@ -14,6 +14,15 @@ import SmallHeroImage from './assets/SmallHeroImage.png';
 import LargeHeroImage from './assets/LargeHeroImage.png';
 import AppleDownload from './assets/AppleDownload.png';
 import GoogleDownload from './assets/GoogleDownload.png';
+import twitterIcon from './assets/Twitter.svg';
+import instagramIcon from './assets/Instagram.svg';
+import linkedinIcon from './assets/LinkedIn.svg';
+import facebookIcon from './assets/Facebook.svg';
+import line from './assets/Line.png';
+import Samllline from './assets/SmallLine.png';
+import Decorator1 from './assets/Decorator1.png';
+import Decorator2 from './assets/Decorator2.png';
+import Decoratorblue1 from './assets/Decoratorblue1.png';
 
 function App() {
   return (
@@ -26,6 +35,13 @@ function App() {
           </section>
 
           <div className="w-full flex justify-center container mx-auto">
+            <div className="lg:flex flex-col gap-y-10 absolute left-12  hidden">
+              <img src={facebookIcon} alt="Facbook Icon" />
+              <img src={instagramIcon} alt="Instagram Icon" />
+              <img src={twitterIcon} alt="Twitter Icon" />
+              <img src={linkedinIcon} alt="LinkedIn Icon" />
+            </div>
+
             <img
               src={HeroLinesImage}
               alt="Lines"
@@ -62,11 +78,43 @@ function App() {
           className="max-w-[126px]"
         />
       </div>
-      <main className="container mx-auto mt-12">
+      <main className="container mx-auto mt-12 relative overflow-x-clip">
+        <img
+          src={Samllline}
+          alt="LinkedIn Icon"
+          className="absolute  -top-48 right-0 -z-50 lg:hidden"
+        />
+        <img
+          src={line}
+          alt="LinkedIn Icon"
+          className="absolute -top-48 -right-24 -z-50 hidden lg:block "
+        />
+        <img
+          src={Decorator1}
+          alt="Decorator"
+          className="absolute left-0 lg:block hidden"
+        />
         <AboutUs />
+        <img
+          src={Decorator2}
+          alt="Decorator"
+          className="absolute right-0 lg:block hidden"
+        />
         <Clients />
-        <Testimonials />
-        <Faq />
+        <div className="relative">
+          <img
+            src={line}
+            alt="LinkedIn Icon"
+            className="absolute top-24 -right-12 -z-50 hidden lg:block "
+          />
+          <Testimonials />
+          <Faq />
+          <img
+            src={Decoratorblue1}
+            alt=""
+            className="absolute left-0 bottom-3 -z-50 hidden lg:block"
+          />
+        </div>
         <DownloadApp /> {/* need to fix the image oversize */}
         <Cta />
         <Footer />

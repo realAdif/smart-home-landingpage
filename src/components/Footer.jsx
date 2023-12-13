@@ -29,7 +29,7 @@ const footerContent = [
 const Footer = () => {
   return (
     <section className="p-3 flex flex-col lg:flex-row">
-      <div className="mr-3">
+      <div className="lg:mr-6">
         <h2>SmartHome</h2>
         <p className="text-sm max-w-[330px] mb-3">
           Automate your entire healthcare hiring, onboarding and compliance with
@@ -48,7 +48,7 @@ const Footer = () => {
       </div>
       <div className="flex flex-col lg:flex-row justify-between w-full">
         {footerContent.map((footerContent, index) => (
-          <div key={index}>
+          <div key={index} className="px-3">
             <p className="text-md my-3 mb-6 font-semibold text-[#2E2E2E]">
               {footerContent.title}
             </p>
