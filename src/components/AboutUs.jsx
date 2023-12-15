@@ -29,7 +29,7 @@ const aboutUsCards = [
 
 const AboutUs = () => {
   return (
-    <section className="p-3">
+    <section className="p-3" id="about">
       <h1 className="text-neutral-grey text-center">About Us</h1>
       <div>
         {aboutUsCards.map((card, index) => (
@@ -40,12 +40,12 @@ const AboutUs = () => {
             {/* image */}
             <div className="relative flex justify-center">
               {/* sm */}
-              <img src={card.image} alt="#" className="relative lg:hidden" />
+              <img src={card.image} alt="#" className="relative lg:hidden " />
               {/* lg */}
               <img
                 src={card.lagerImage}
                 alt="#"
-                className="relative max-w-[700px] hidden lg:block"
+                className="relative max-w-[700px] hidden lg:block "
               />
               <div className="lg:hidden w-[200px] h-[120px] bg-primary rounded-xl absolute bottom-20 -z-10" />
               <div className="hidden lg:block w-[500px] h-[350px] bg-primary rounded-xl absolute bottom-40 -z-10" />

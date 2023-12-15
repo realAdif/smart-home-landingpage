@@ -33,7 +33,7 @@ const TestimonialsList = [
 
 const Testimonials = () => {
   return (
-    <section className="p-3">
+    <section className="p-3" id="testimonials">
       <h1 className="text-neutral-grey text-center mt-5">Testimonials</h1>
       <p className="text-neutral-greylight text-center max-w-[750px] mx-auto">
         Wisdom new and valley answer. Contented it so is discourse recommend.

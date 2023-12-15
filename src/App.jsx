@@ -50,17 +50,17 @@ function App() {
             <img
               src={HeroFrameImage}
               alt="Hero Background Frame"
-              className="absolute lg:block top-0 hidden "
+              className="absolute lg:block z-10 top-0 hidden pointer-events-none "
             />
             <img
               src={SmallHeroImage}
               alt="Phones"
-              className="absolute -bottom-24 lg:hidden mx-auto"
+              className="absolute -bottom-24 lg:hidden mx-auto pointer-events-none"
             />
             <img
               src={LargeHeroImage}
               alt="Phones"
-              className="absolute -bottom-72 hidden lg:block max-w-[1084px]"
+              className="absolute -bottom-72 hidden lg:block max-w-[1084px] pointer-events-none"
             />
           </div>
         </main>

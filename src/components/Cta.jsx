@@ -2,7 +2,10 @@ import Decoratorblue3 from '../assets/Decorator3.png';
 
 const Cta = () => {
   return (
-    <section className="bg-primary relative text-white rounded-xl flex flex-col lg:flex-row items-start lg:items-center justify-between p-12 mb-24">
+    <section
+      className="bg-primary relative text-white rounded-xl flex flex-col lg:flex-row items-start lg:items-center justify-between p-12 mb-24"
+      id="contact"
+    >
       <div>
         <h1 className=" lg:max-w-full my-3 text-headline-samllScreen">
           Subscribe to get updated

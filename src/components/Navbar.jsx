@@ -33,10 +33,13 @@ const Navbar = () => {
       {/* lg */}
       <div className="lg:flex justify-between items-center hidden">
         {/* list */}
-        <ul className="flex gap-x-9">
+        <ul className="flex gap-x-9 z-50">
           {navList.map((nav, index) => (
-            <li key={index} className="text-sm text-white cursor-pointer">
-              {nav.p}
+            <li
+              key={index}
+              className="text-sm text-white cursor-pointer hover:underline"
+            >
+              <a href={nav.href}>{nav.p}</a>
             </li>
           ))}
         </ul>
@@ -62,7 +65,7 @@ const Navbar = () => {
         {/* list */}
         <div
           className={
-            navOpen ? 'hidden' : 'flex flex-col justify-between h-[90%]'
+            navOpen ? 'hidden' : 'flex flex-col justify-between h-screen'
           }
         >
           {/* list */}
@@ -85,7 +88,7 @@ const Navbar = () => {
             </ul>
           </div>
           {/* social */}
-          <div className="flex justify-center gap-x-10">
+          <div className="flex justify-center gap-x-10  mb-36">
             <img src={Facebook} alt="Facebook Icon" />
             <img src={Instagram} alt="Instagram Icon" />
             <img src={Twitter} alt="Twitter Icon" />

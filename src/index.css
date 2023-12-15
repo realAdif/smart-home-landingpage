@@ -9,4 +9,10 @@
   h2 {
     @apply text-lg text-neutral-grey font-bold;
   }
+  img {
+    @apply pointer-events-none;
+  }
+  html {
+    scroll-behavior: smooth !important;
+  }
 }
