@@ -5,23 +5,23 @@ import minusIcon from '../assets/minus.svg';
 const faqList = [
   {
     title: 'Chamber reached do he nothing be?',
-    p: 'Our asked sex point her she seems. New plenty she horses parish design you. Stuff sight equal of my woody. Him children bringing goodness suitable she entirely put far daughter.',
+    p: 'We meet new clients and more often than not establish long-term business relationships, all through Guru. The flexibility in how projects can be structured',
   },
   {
     title: 'Stuff sight equal of my woody?',
-    p: 'Our asked sex point her she seems. New plenty she horses parish design you. Stuff sight equal of my woody. Him children bringing goodness suitable she entirely put far daughter.',
+    p: 'We meet new clients and more often than not establish long-term business relationships, all through Guru. The flexibility in how projects can be structured',
   },
   {
     title: 'At by pleasure of children be?',
-    p: 'Our asked sex point her she seems. New plenty she horses parish design you. Stuff sight equal of my woody. Him children bringing goodness suitable she entirely put far daughter.',
+    p: 'We meet new clients and more often than not establish long-term business relationships, all through Guru. The flexibility in how projects can be structured',
   },
   {
     title: 'Amounted repeated as believed in confined?',
-    p: 'Our asked sex point her she seems. New plenty she horses parish design you. Stuff sight equal of my woody. Him children bringing goodness suitable she entirely put far daughter.',
+    p: 'We meet new clients and more often than not establish long-term business relationships, all through Guru. The flexibility in how projects can be structured',
   },
   {
     title: 'In am do giving to afford parish settle easily garret?',
-    p: 'Our asked sex point her she seems. New plenty she horses parish design you. Stuff sight equal of my woody. Him children bringing goodness suitable she entirely put far daughter.',
+    p: 'We meet new clients and more often than not establish long-term business relationships, all through Guru. The flexibility in how projects can be structured',
   },
 ];
 
